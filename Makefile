@@ -8,7 +8,7 @@ data:
 	unzip data.zip
 
 db:
-	python -m src.pipeline.
+	python pipeline/models.py
 
 from-csv: db
 
